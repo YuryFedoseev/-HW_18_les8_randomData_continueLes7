@@ -11,7 +11,7 @@ public class TestWebFormWithPageObject extends TestBase {
     @Test
     void fullSucsessTest() {
 
-        String userName = "Ivan";
+        String userName = "Iva";
         String userLastName = "Kuzmin";
         String userEmail = "mail@muil.ru";
         String userGender = "Other"; // Female , Male , Other
