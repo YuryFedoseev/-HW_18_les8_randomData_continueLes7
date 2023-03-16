@@ -11,20 +11,6 @@ public class TestWebFormWithPageObject extends TestBase {
     @Test
     void fullSucsessTest() {
 
-        String userName = "Ivan";
-        String userLastName = "Kuzmin";
-        String userEmail = "mail@muil.ru";
-        String userGender = "Other"; // Female , Male , Other
-        String userPhone = "9876543218";
-        String userImage = "src/test/resources/image/379-scaled.jpg";
-        String userImageName = "379-scaled.jpg";
-        String userSubject = "Chemistry";
-        String userHobby = "Music";
-        String userAddress = "Lenina 14";
-        String userState = "Haryana";
-        String userCity = "Karnal";
-
-
         registrationPage
                 .openPage()
                 .closeBanner()
