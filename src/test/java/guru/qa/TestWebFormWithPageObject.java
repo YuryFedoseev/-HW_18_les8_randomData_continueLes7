@@ -9,21 +9,8 @@ public class TestWebFormWithPageObject extends TestBase {
     CheckRegistrationPage checkRegistrationPage = new CheckRegistrationPage();
 
     @Test
-    void fullSucsessTest() {
 
-        String userName = "Iva";
-        String userLastName = "Kuzmin";
-        String userEmail = "mail@muil.ru";
-        String userGender = "Other"; // Female , Male , Other
-        String userPhone = "9876543218";
-        String userImage = "src/test/resources/image/379-scaled.jpg";
-        String userImageName = "379-scaled.jpg";
-        String userSubject = "Chemistry";
-        String userHobby = "Music";
-        String userAddress = "Lenina 14";
-        String userState = "Haryana";
-        String userCity = "Karnal";
-
+    void fullSuccessTest() {
 
         registrationPage
                 .openPage()
@@ -53,6 +40,5 @@ public class TestWebFormWithPageObject extends TestBase {
                 .checkCity(userCity);
 
     }
-
 
 }
