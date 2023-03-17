@@ -3,7 +3,9 @@ package guru.qa;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 
-public class TestBase extends TestData {
+import java.util.concurrent.ThreadLocalRandom;
+
+public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
