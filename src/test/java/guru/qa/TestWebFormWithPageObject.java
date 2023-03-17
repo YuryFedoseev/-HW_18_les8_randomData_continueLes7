@@ -9,7 +9,7 @@ public class TestWebFormWithPageObject extends TestBase {
     CheckRegistrationPage checkRegistrationPage = new CheckRegistrationPage();
 
     @Test
-    void fullSucsessTest() {
+    void fullSuccessTest() {
 
         registrationPage
                 .openPage()
